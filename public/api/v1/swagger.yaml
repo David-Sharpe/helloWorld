@@ -1,0 +1,7 @@
+swagger: '2.0'
+info:
+  description: |
+    This is a HelloWorld greeting API.
+  version: '1.0.0'
+  title: HelloWorld
+
