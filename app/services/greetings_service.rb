@@ -4,7 +4,8 @@ class GreetingsService
   end
 
   def set_greeting(country:, phrase:)
-    Greeting.save
+    greeting = Greeting.new({country: country, phrase: phrase})  
+    greeting.save
   end
 
   def delete_greeting(id)
