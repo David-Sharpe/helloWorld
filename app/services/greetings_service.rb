@@ -4,6 +4,7 @@ class GreetingsService
   end
 
   def set_greeting(country:, phrase:)
+    # make it and save it
     greeting = Greeting.new({country: country, phrase: phrase})  
     greeting.save
   end
